@@ -10,6 +10,7 @@
   backdrop-filter: blur(5px);
   top: 0;
   left: 0;
+  z-index: 7;
 }
 .contenedor_opciones_navbar {
   width: auto;
