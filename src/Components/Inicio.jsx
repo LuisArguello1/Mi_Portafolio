@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Css/inicio.css"
-import flecha_left from "/Assets/arrowleft.svg"
+import flecha_left from "/assets/arrowleft.svg"
 
 const Inicio = ({setRenderPage}) => {
   return (

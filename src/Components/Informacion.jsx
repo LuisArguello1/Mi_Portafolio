@@ -5,16 +5,16 @@ import { useEffect } from "react";
 import Footer from "./Footer";
 
 
-import svg_Carrera from "/Assets/tecnologia.svg"
-import svg_educacion from "/Assets/educacion.svg"
-import svg_direccion from "/Assets/direccion.svg"
-import svg_cedula from "/Assets/cedula.svg"
-import svg_note from "/Assets/note.svg"
+import svg_Carrera from "/assets/tecnologia.svg"
+import svg_educacion from "/assets/educacion.svg"
+import svg_direccion from "/assets/direccion.svg"
+import svg_cedula from "/assets/cedula.svg"
+import svg_note from "/assets/note.svg"
 import foto_perfil from "/Diplomas/perfil_foto.jpg"
-import svg_habilidades from "/Assets/habilidades.svg"
-import svg_laboral from "/Assets/portafolio.svg"
-import svg_email from "/Assets/email.svg"
-import svg_telefono from "/Assets/telefono.svg"
+import svg_habilidades from "/assets/habilidades.svg"
+import svg_laboral from "/assets/portafolio.svg"
+import svg_email from "/assets/email.svg"
+import svg_telefono from "/assets/telefono.svg"
 
 import hoja_vida from "/document/Hoja de vida - Luis Arguello.pdf"
 

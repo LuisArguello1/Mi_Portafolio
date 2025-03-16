@@ -4,9 +4,9 @@ import "../Css/proyectos.css";
 
 import Footer from "./Footer"
 
-import flecha_color from "/Assets/flecha_color.svg";
-import svg_note from "/Assets/note.svg";
-import svg_tecnologia from "/Assets/tecnologia.svg";
+import flecha_color from "/assets/flecha_color.svg";
+import svg_note from "/assets/note.svg";
+import svg_tecnologia from "/assets/tecnologia.svg";
 
 import logica_conjuntos from "/Img/logica-conjuntos.png";
 import detalles_arreglos from "/Img/Detalles_arreglos.svg";

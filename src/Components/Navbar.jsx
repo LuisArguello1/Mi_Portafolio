@@ -1,9 +1,9 @@
 import React from 'react'
 import "../Css/navbar.css"
-import svg_portafolio from "/Assets/portafolio.svg"
-import svg_proyecto from "/Assets/proyecto.svg"
-import svg_educacion from "/Assets/educacion.svg"
-import svg_informacion from "/Assets/informacion.svg"
+import svg_portafolio from "/assets/portafolio.svg"
+import svg_proyecto from "/assets/proyecto.svg"
+import svg_educacion from "/assets/educacion.svg"
+import svg_informacion from "/assets/informacion.svg"
 
 const Navbar = ({setRenderPage}) => {
     const handleChangePage = (renderPage) => {
