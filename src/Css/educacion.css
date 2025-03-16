@@ -1,0 +1,308 @@
+.contenedor_principal_educacion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido_presentacion_educacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.p_texto_educacion{
+    width: 75%;
+    height: auto;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
+.contenido_detalle_educacion{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: #efefef;
+}
+.presentacion_educacion{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+}
+.datos_instituciones_educacion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid grey;
+}
+.contenedor_datos_educacion{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1em; */
+}
+.img_escuela{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.header_datos_educacion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 1em;
+    font-size: 21px;
+}
+.fecha_educacion{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.p_datos_educacion{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.escudo_institucion{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.escudo{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    padding: 5px;
+}
+.contenedor_presentar_reconocimientos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 10px;
+    background-color:  #efefef;
+}
+.contenedor_reconocimientos{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.titulo_reconocimientos{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+.reconocimientos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-items: center;
+    align-items: center; */
+    background: rgb(24, 42, 61);
+    background: radial-gradient(
+      circle,
+      rgba(24, 42, 61, 1) 11%,
+      rgba(31, 56, 68, 1) 27%,
+      rgba(31, 49, 57, 1) 37%,
+      rgba(13, 16, 24, 1) 68%
+    );
+    gap:0.2em;
+    padding: 0.2em;
+}
+.reconocimientos .card_rec:first-child{
+    grid-column: span 2;
+}
+.card_rec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color:#efefef ;
+}
+.contenedor_img_rec{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.img_rec{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.titulo_rec{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-top: 0.5px solid grey;
+    align-content: center;
+    font-size: 19px;
+}
+
+@media(max-width: 767px){
+    .contenido_presentacion_educacion{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: rgb(24, 42, 61);
+    }
+    .p_texto_educacion{
+        width: 90%;
+        height: auto;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 1.6;
+    }
+    .contenido_detalle_educacion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color: #efefef;
+        padding: 30px 0px;
+    }
+    .presentacion_educacion{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5em;
+    }
+    .datos_instituciones_educacion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 1px solid grey;
+    }
+    .escudo_institucion{
+        width: 30%;
+        height: auto;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor_datos_educacion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_datos_educacion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        gap: 1em;
+        font-size: 21px;
+        text-align: center;
+    }
+    .img_escuela{
+        width: 90px;
+        height: 85px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    .p_datos_educacion{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .contenedor_presentar_reconocimientos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 5vh;
+        padding-bottom: 10px;
+        background-color:  #efefef;
+        border-top: 30px solid black;
+    }
+    .contenedor_reconocimientos{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .reconocimientos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-items: center;
+        align-items: center; */
+        background: rgb(24, 42, 61);
+        background: radial-gradient(
+          circle,
+          rgba(24, 42, 61, 1) 11%,
+          rgba(31, 56, 68, 1) 27%,
+          rgba(31, 49, 57, 1) 37%,
+          rgba(13, 16, 24, 1) 68%
+        );
+        gap:0.2em;
+        padding: 0.2em;
+    }
+    .reconocimientos .card_rec:first-child{
+        grid-column: span 1;
+    }
+}

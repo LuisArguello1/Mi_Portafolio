@@ -1,0 +1,174 @@
+.contenedor_principal_inicio {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
+  margin-top: 20vh;
+}
+
+/* estilos de letras */
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contendor_text {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto_principal {
+  width: auto;
+  height: auto;
+  color: rgb(181, 136, 0);
+  font-size: 130px;
+  font-weight: 700;
+  font-family: "Tangerine", cursive, "Arial";
+  letter-spacing: 2px;
+}
+.texto_secundario {
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+}
+.contenedor_btn {
+  padding: 10px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn_inicio {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+@media(max-width: 767px){
+  .contenedor_principal_inicio {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 0vh;
+  }
+  
+  /* estilos de letras */
+  .tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .contendor_text {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .texto_principal {
+    width: 100%;
+    height: auto;
+    color: rgb(181, 136, 0);
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Tangerine", cursive, "Arial";
+    letter-spacing: 2px;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding-top: 10px ;
+  }
+  .texto_secundario {
+    width: 100%;
+    height: auto;
+    color: rgb(2, 2, 2);
+    font-size: 40px;
+    font-family: "EB Garamond", serif;
+    text-align: center;
+
+    /* border-bottom: 1px solid grey; */
+  }
+  .contenedor_btn {
+    width: 100%;
+    padding: 50px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 21px;
+    border-top: 1px solid grey;
+  }
+  .btn_inicio {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
