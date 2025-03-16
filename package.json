@@ -1,9 +1,9 @@
 {
   "name": "portafolio",
+  "homepage": "https://LuisArguello1.github.io/Mi_Portafolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://LuisArguello1.github.io/Mi_Portafolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
